@@ -30,22 +30,14 @@ int main( ) {
     int x = 12; // 12 bottles of water/min
     int bottles;
     int minutes;
-    
+   
     printf("minutes: ");
     minutes = GetInt();
-        
-        
-    while (minutes < 0) { // check that minutes are not negative
-       
-        printf("You can't travel back in time in the shower\n");
-        printf("Give me a positive amount of minutes: ");
-        minutes = GetInt();
-        
-    }; 
+    // printf("%d %s\n", minutes, "minutes"); // check correct variable is stored
     
     bottles = minutes * x; // multiply minutes by 12 bottles
-    
+   
     printf("%s %d\n", "bottles:",bottles);
- 
+
     return 0; // good practice to include this for feedback
 }
