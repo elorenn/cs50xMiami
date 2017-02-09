@@ -4,6 +4,10 @@
 #include <cs50.h>
 #include <string.h>
 
+// Best Practice:
+// avoid global variable unless absolutely necessery 
+// global constants are ok
+
 
 int main () {
     
